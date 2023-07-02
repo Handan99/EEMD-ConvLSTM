@@ -1,27 +1,12 @@
 import numpy as np
-import os
-import copy
-import joblib
-import matplotlib.pyplot as plt
-import math
-from sklearn.metrics import mean_absolute_error,r2_score,mean_squared_error
-import matplotlib.pyplot as plt
 from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.layers import Conv3D
 from tensorflow.keras.layers import ConvLSTM2D
 from tensorflow.keras.layers import BatchNormalization
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import load_model
-from sklearn.preprocessing import MinMaxScaler
-from sklearn import preprocessing
-import time
-from sklearn.metrics import mean_absolute_error
 from tensorflow.keras.models import Model
 import tensorflow.keras.backend as K
-from matplotlib.pyplot import MultipleLocator
-import math
-from sklearn.preprocessing import MinMaxScaler
-import os
 import tensorflow as tf
 
 class LossHistory(tf.keras.callbacks.Callback): 
